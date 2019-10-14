@@ -52,7 +52,7 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
+   padding-bottom: 30px;
    text-align: center;
 }
 
@@ -62,14 +62,14 @@ header .banner-text h1 {
    color: #fff;
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
-   text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+   text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
 }
 header .banner-text h3 {
    font: 18px/1.9em 'librebaskerville-regular', serif;
    color: #A8A8A8;
    margin: 0 auto;
    width: 70%;
-   text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
+   text-shadow: 0px 1px 2px rgba(0, 0, 0, 1);
 }
 header .banner-text h3 span,
 header .banner-text h3 a {
@@ -87,7 +87,7 @@ header .social {
    margin: 24px 0;
    padding: 0;
    font-size: 30px;
-   text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
+   text-shadow: 0px 1px 2px rgba(0, 0, 0, 1);
 }
 header .social li {
    display: inline-block;
@@ -95,7 +95,9 @@ header .social li {
    padding: 0;
 }
 header .social li a { color: #fff; }
-header .social li a:hover { color: #11ABB0; }
+    header .social li a:hover {
+        color: #006600;
+    }
 
 /* scrolldown link */
 header .scrolldown a {
@@ -117,7 +119,9 @@ header .scrolldown a {
    -o-transition: all .3s ease-in-out;
    transition: all .3s ease-in-out;
 }
-header .scrolldown a:hover { color: #11ABB0; }
+    header .scrolldown a:hover {
+        color: #2B2B2B;
+    }
 
 /* primary navigation
 --------------------------------------------------------------------- */
@@ -153,10 +157,11 @@ ul#nav {
    text-align: center;
 }
 ul#nav li {
-   position: relative;
-   list-style: none;
-   height: 48px;
-   display: inline-block;
+    position: relative;
+    list-style: none;
+    height: 48px;
+    display: inline-block;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 1);
 }
 
 /* Links */
@@ -179,7 +184,9 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #F06000; }
+    ul#nav li.current a {
+        color: #006600;
+    }
 
 
 /* ------------------------------------------------------------------ */
@@ -194,7 +201,7 @@ ul#nav li.current a { color: #F06000; }
 }
 
 #about a, #about a:visited  { color: #fff; }
-#about a:hover, #about a:focus { color: #11ABB0; }
+#about a:hover, #about a:focus { color: #006600; }
 
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
@@ -261,7 +268,7 @@ ul#nav li.current a { color: #F06000; }
 #resume .header-col { padding-top: 9px; }
 #resume .main-col { padding-right: 10%; }
 
-.education, .work {
+.work {
    margin-bottom: 48px;
    padding-bottom: 24px;
    border-bottom: 1px solid #E8E8E8;
@@ -411,7 +418,7 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-   background: #ebeeee;
+   background: #2B2B2B;
    padding-top: 90px;
    padding-bottom: 60px;
 }
@@ -852,12 +859,6 @@ call-to-action .button {
    line-height: 24px;
    width: 65%;
 }
-#contact input:focus,
-#contact textarea:focus,
-#contact select:focus {
-	color: #fff;
-	background-color: #11ABB0;
-}
 #contact button.submit {
 	text-transform: uppercase;
 	letter-spacing: 3px;
@@ -874,10 +875,10 @@ call-to-action .button {
 	color: #0D0D0D;
 	background: #fff;
 }
-#contact span.required {
-	color: #11ABB0;
-	font-size: 13px;
-}
+    #contact span.required {
+        color: #fff;
+        font-size: 13px;
+    }
 #message-warning, #message-success {
    display: none;
 	background: #0F0F0F;
@@ -1002,5 +1003,7 @@ footer .social-links li:first-child { margin-left: 0; }
    line-height: 60px;
  	border-radius: 100%;
 }
-#go-top a:hover { background-color: #0F9095; }
+    #go-top a:hover {
+        background-color: #2B2B2B;
+    }
 

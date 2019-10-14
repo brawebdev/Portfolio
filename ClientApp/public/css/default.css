@@ -286,14 +286,13 @@ hr { border: solid #E3E3E3; border-width: 1px 0 0; clear: both; margin: 11px 0 3
 /*  3. Links  ------------------------------------------------------- */
 
 a, a:visited {
-   text-decoration: none;
-   outline: 0;
-   color: #11ABB0;
-
-   -webkit-transition: color .3s ease-in-out;
-   -moz-transition: color .3s ease-in-out;
-   -o-transition: color .3s ease-in-out;
-   transition: color .3s ease-in-out;
+    text-decoration: none;
+    outline: 0;
+    color: #006600;
+    -webkit-transition: color .3s ease-in-out;
+    -moz-transition: color .3s ease-in-out;
+    -o-transition: color .3s ease-in-out;
+    transition: color .3s ease-in-out;
 }
 a:hover, a:focus { color: #313131; }
 p a, p a:visited { line-height: inherit; }
@@ -348,9 +347,9 @@ li p { }
    border: none;
    color: #313131;
 }
-.stats-tabs li a:hover {
-   color:#11ABB0;
-}
+    .stats-tabs li a:hover {
+        color: #006600;
+    }
 .stats-tabs li a b {
 	display: block;
 	margin: 6px 0 0 0;
@@ -361,7 +360,10 @@ li p { }
 
 /* definition list */
 dl { margin: 12px 0; }
-dt { margin: 0; color:#11ABB0; }
+dt {
+    margin: 0;
+    color: #006600;
+}
 dd { margin: 0 0 0 20px; }
 
 /* Lining Definition Style Markup */
@@ -434,11 +436,11 @@ dd { margin: 0 0 0 20px; }
    background: #838A91;
    color: #fff;
 }
-.pagination .current,
-.pagination .current:hover {
-   background-color: #11ABB0;
-   color: #fff;
-}
+    .pagination .current,
+    .pagination .current:hover {
+        background-color: #006600;
+        color: #fff;
+    }
 .pagination .inactive,
 .pagination .inactive:hover {
    background-color: #E6E8EB;
@@ -463,28 +465,26 @@ button,
 input[type="submit"],
 input[type="reset"],
 input[type="button"] {
-   font: 16px/30px 'opensans-bold', sans-serif;
-   background: #11ABB0;
-   display: inline-block;
-	text-decoration: none;
-   letter-spacing: 0;
-   color: #fff;
-	padding: 12px 20px;
-	margin-bottom: 18px;
-   border: none;
-   cursor: pointer;
-   height: auto;
-
-   -webkit-transition: all .2s ease-in-out;
-	-moz-transition: all .2s ease-in-out;
-	-o-transition: all .2s ease-in-out;
-	-ms-transition: all .2s ease-in-out;
-	transition: all .2s ease-in-out;
-
-   -moz-border-radius: 3px;
-   -webkit-border-radius: 3px;
-   -khtml-border-radius: 3px;
-   border-radius: 3px;
+    font: 16px/30px 'opensans-bold', sans-serif;
+    background: #006600;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 0;
+    color: #fff;
+    padding: 12px 20px;
+    margin-bottom: 18px;
+    border: none;
+    cursor: pointer;
+    height: auto;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
 }
 
 .button:hover,

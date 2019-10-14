@@ -1,75 +1,36 @@
 {
   "main": {
-    "name":"Tim Baker",
-    "occupation":"(Your Occupation Here)",
-    "description":"Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
-    "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
-    "address":{
-      "street":"(Your Street)",
-      "city":"(Your City)",
-      "state":"(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+    "name": "Ben Arnold",
+    "occupation": "Software Engineer",
+    "description": "clean code craftsman, team player, and a work in progress",
+    "image": "profilepic.jpg",
+    "bio": "I am a clean code craftsman. I take pride in my work because how I write code matters. It matters to the developers that I work with today and to the developers that come after me. It matters to the user and the business. I am a team player. Team players know how to disagree but commit to being held accountable for team decisions. They know how to give and receive feedback with finesse and an open mind. A team player asks, 'How do I provide the greatest possible amount of value to the team?' then they follow through. I am a work in progress. The keyword here is work. It takes work to grow and the process isn't always comfortable. I lean into the discomfort. A better version of myself is formed through the striving. Every sword must be tempered in the fire. 'You should never sacrifice what you could be for what you are.' - Jordan Peterson ",
+    "contactmessage": "Hey! Feel free to reach out with any questions you might have and I'll be sure to get back to you.",
+    "email": "brawebdev@gmail.com",
+    "phone": "317-672-8880",
+    "address": {
+      "street": "(Your Street)",
+      "city": "Fishers",
+      "state": "Indiana",
+      "zip": "46038"
     },
     "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
-    "social":[
+    "resumedownload": "http://timbakerdev.com",
+    "social": [
       {
-        "name":"facebook",
-        "url":"http://facebook.com/tim.baker.906",
-        "className":"fa fa-facebook"
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/benjamin-arnold",
+        "className": "fa fa-linkedin"
       },
       {
-        "name":"twitter",
-        "url":"http://twitter.com",
-        "className":"fa fa-twitter"
-      },
-      {
-        "name":"google-plus",
-        "url":"http://googleplus.com/tbakerx",
-        "className":"fa fa-google-plus"
-      },
-      {
-        "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
-        "className":"fa fa-linkedin"
-      },
-      {
-        "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
-        "className":"fa fa-instagram"
-      },
-      {
-        "name":"github",
-        "url":"http://github.com/tbakerx",
-        "className":"fa fa-github"
-      },
-      {
-        "name":"skype",
-        "url":"http://skype.com",
-        "className":"fa fa-skype"
+        "name": "github",
+        "url": "https://github.com/brawebdev",
+        "className": "fa fa-github"
       }
     ]
   },
   "resume":{
     "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
-    "education":[
-      {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2007",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
-      },
-      {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2003",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
-      }
-    ],
     "work":[
       {
         "company":"Awesome Design Studio",
