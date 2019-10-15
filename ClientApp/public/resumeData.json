@@ -15,7 +15,7 @@
       "zip": "46038"
     },
     "website": "http://www.timbakerdev.com",
-    "resumedownload": "http://timbakerdev.com",
+    "resumedownload": "Resume.pdf",
     "social": [
       {
         "name": "linkedin",
@@ -29,50 +29,56 @@
       }
     ]
   },
-  "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
-    "work":[
+  "resume": {
+    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+    "work": [
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2010 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company": "Knowledge Services",
+        "title": "Software Engineer",
+        "years": "10/2017 - Present",
+        "description": "Created API endpoints for integration with e-procurement systems, implemented Azure blob storage for cxml input, led technical book club (Books with Ben), setup Automated UI tests with Selenium, established coding standards and integrated with Resharper, Reduced total CSS lines by over 50% while maintaining UI integrity, wrote Fluent Validation input validators with unit tests, etc."
       },
       {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2007 - February 2010",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company": "Aerodyn Engineering",
+        "title": "Instrumentation Technician",
+        "years": "10/2014 - 06/2017",
+        "description": "Installed and maintained telemetry systems independently and internationally and maintained and improved relations with customers (NASA, Rolls Royce, GE, etc.)"
+      },
+      {
+        "company": "U.S. Marine Corps",
+        "title": "Crew Chief",
+        "years": "07/2009 - 06/2014",
+        "description": "Worked closely with high ranking foreign and U.S. officials and performed safety inspections on multimillion-dollar aircraft "
       }
     ],
-    "skills":[
+    "skills": [
       {
-        "name":"Git",
-        "level":"60%"
+        "name": "C#",
+        "level": "75%"
       },
       {
-        "name":"Illustrator",
-        "level":"55%"
+        "name": "SQL",
+        "level": "50%"
       },
       {
-        "name":"ReactJs",
-        "level":"50%"
+        "name": "ReactJs",
+        "level": "50%"
       },
       {
-        "name":"CSS",
-        "level":"90%"
+        "name": "CSS",
+        "level": "80%"
       },
       {
-        "name":"HTML5",
-        "level":"80%"
+        "name": "HTML5",
+        "level": "80%"
       },
       {
-        "name":"VueJs",
-        "level":"50%"
+        "name": "Git",
+        "level": "80%"
       },
       {
-        "name":"MongoDB",
-        "level":"80%"
+        "name": "Agile",
+        "level": "90%"
       }
     ]
   },
